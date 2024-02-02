@@ -84,12 +84,11 @@ int main(int argc, const char * argv[])
 tmp->next=NULL;
     // Exercise VI Free all node !!
          //use a loop to help
-    printf("\n\n");
     while (head)
     {
         tmp=head;
         head = head->next;
-        printf("%d",tmp->value);
+        printf("%d ",tmp->value);
         free(tmp);
         printf("%3d\n",tmp->value);
     }
