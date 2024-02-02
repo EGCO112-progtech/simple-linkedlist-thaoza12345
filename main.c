@@ -2,7 +2,7 @@
 //  main.c
 //  simple linkedlist
 //
-//  Created by Mingmanas Sivaraksa on 4/2/2566 BE.
+//  Created by Rapeepat on 2/2/2567 BE.
 //
 
 #include <stdio.h>
